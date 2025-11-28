@@ -1,0 +1,3 @@
+zstyle ':prezto:load' pmodule \
+  'environment' 'terminal' 'editor' 'directory' 'history' \
+  'completion' 'autosuggestions' 'syntax-highlighting' 'git' 'prompt'

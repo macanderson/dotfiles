@@ -1,0 +1,6 @@
+export ZDOTDIR="${ZDOTDIR:-$HOME}"
+source "$ZDOTDIR/.zprezto/init.zsh"
+for f in "$HOME/.dotfiles/zsh/env.sh" "$HOME/.dotfiles/zsh/aliases.sh" "$HOME/.dotfiles/zsh/prompt.sh"; do
+  [ -f "$f" ] && source "$f"
+done
+autoload -Uz compinit && compinit

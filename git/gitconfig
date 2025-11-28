@@ -1,0 +1,6 @@
+[user]
+    name = Your Name
+    email = you@example.com
+[core]
+    excludesfile = ~/.gitignore_global
+    editor = nvim

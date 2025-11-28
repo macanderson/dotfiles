@@ -1,0 +1,6 @@
+alias ls='ls -G'
+alias npm='pnpm'
+alias npx='pnpm dlx'
+alias p='pnpm'
+alias pi='pnpm install'
+alias pr='pnpm run'
